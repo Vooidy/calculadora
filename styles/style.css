@@ -33,3 +33,127 @@
     color: #fff;
 }
 
+body{
+    height: 0;
+    width: 0;
+background: rgb(0 11 18)
+}
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,  -50%)
+    position: absolute;
+    display: flex;
+}  
+button {
+    position: fixed;
+    top: 350px;
+    left: 1050px;
+    width: 90px;
+    height: 90px;
+    font-size: 37px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+    background-color: #0af6fa;
+}
+button:active {
+    background-color: rgb(253, 17, 0);
+     color: black;
+}
+
+#b1 {
+    top: 350px;
+    left: 945px;
+}
+#b2 {
+    top: 350px;
+    left: 840px;
+}
+#b3 {
+    top: 350px;
+    left: 733px;
+}
+#b4 {
+    top: 455px;
+    left: 1050px;
+}
+#b5 {
+    top: 560px;
+    left: 1050px;
+}
+#b6 {
+    top: 665px;
+    left: 1050px;
+}
+#b7 {
+    top: 770px;
+    left: 1050px;
+}
+
+#b8 {
+    top: 455px;
+    left: 945px;
+}
+#b9 {
+    top: 455px;
+    left: 840px;
+}
+#b10 {
+    top: 455px;
+    left: 733px;
+}
+#b11 {
+    top: 560px;
+    left: 945px;
+}
+#b12 {
+    top: 560px;
+    left: 840px;
+}
+#b13 {
+    top: 560px;
+    left: 733px;
+}
+#b14 {
+    top: 665px;
+    left: 945px;
+}
+#b16 {
+    top: 665px;
+    left: 840px;
+}
+#b17 {
+    top: 665px;
+    left: 733px;
+}
+#b18 {
+    top: 770px;
+    left: 945px;
+}
+#b19 {
+    top: 770px;
+    left: 733px;
+    border-radius: 20px;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid #4CAF50;
+  cursor: pointer;
+  width: 200px;
+  font-size: 18px;
+}
+#b19:hover {
+    background-color: #0af6fa;
+}
+#b19:active {
+    background-color: rgb(253, 17, 0);
+     color: black;
+}
+
